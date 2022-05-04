@@ -80,7 +80,7 @@ section{
   font-size: 3.5rem;
   text-align: center;
   padding: 3rem;
-  color: #666; 
+  color: #666;
 }
 .heading span{
   color: var(--red);
@@ -279,7 +279,7 @@ header #menu-bar{
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
-} 
+}
 
 /* ======================
         speciality end
@@ -515,7 +515,7 @@ header #menu-bar{
 
 
 
-/* 
+/*
 ====================
 order section starts
 ====================
@@ -557,7 +557,7 @@ order section starts
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-} 
+}
 .order .row form .inputBox input , .order .row form  textarea{
   padding: 1rem;
   margin: 1rem 0;
@@ -584,13 +584,13 @@ order section starts
 .order .row form .btn:hover{
   background-color: var(--red);
 }
-/* 
+/*
 ====================
 order section end
 ====================
 */
 
-/* 
+/*
 ====================
 footer section starts
 ====================
@@ -617,7 +617,7 @@ footer section starts
 }
 
 
-/* 
+/*
 ====================
 footer section ends
 ====================
@@ -707,4 +707,9 @@ footer section ends
   .order .row form .inputBox input{
     width: 100%;
   }
+}
+
+.mlogo{
+  width: 200px;
+  padding-top: 10px;
 }
