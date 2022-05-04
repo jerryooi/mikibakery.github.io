@@ -107,7 +107,7 @@ sr.reveal(`.home__data, .home__img,
 })
 
 /*==================== PRODUCT ANIMATION ====================*/
-const slideshowImages = document.querySelectorAll(".intro-slideshow img");
+const slideshowImages = document.querySelectorAll(".slideshow img");
 
 const nextImageDelay = 5000;
 let currentImageCounter = 0; // setting a variable to keep track of the current image (slide)

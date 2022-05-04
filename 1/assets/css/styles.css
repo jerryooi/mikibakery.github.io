@@ -269,7 +269,7 @@ img{
 }
 
 .home__img{
-  width: 300px;
+  /*width: 300px;*/
   justify-self: center;
 }
 
@@ -561,3 +561,24 @@ img{
         height: 640px;
     }
 }
+
+.slideshow img {
+  position: absolute;
+  width:auto;
+  height: 400px;
+  padding: 50px;
+  border-width: medium;
+  border-left-color: : #ffffff;
+  /*width: 300px; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
+  /*height: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */
+  object-fit: cover;
+  z-index:-1;
+  /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+  /* display: none; */
+  opacity: 1;
+  transition: opacity 0.75s ease-in-out;
+}
+/* .intro-slideshow img:first-child {
+  display: block;
+  opacity: 1;
+} */
