@@ -561,22 +561,3 @@ img{
         height: 640px;
     }
 }
-
-/*slideshow*/
-.intro-slideshow img {
-  position: absolute;
-  top: 25%;
-  left: 55%;
-  width: 30%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
-  height: 30%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */
-  object-fit: cover;
-  z-index:-1;
-  /* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
-  /* display: none; */
-  opacity: 0;
-  transition: opacity 0.75s ease-in-out;
-}
-/* .intro-slideshow img:first-child {
-  display: block;
-  opacity: 1;
-} */
